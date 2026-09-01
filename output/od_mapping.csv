@@ -1,0 +1,9 @@
+scenario,corridor,direction,direction_key,origin_latitude,origin_longitude,origin_edge,origin_distance_m,destination_latitude,destination_longitude,destination_edge,destination_distance_m,route_exists,warnings,error
+highway,,center_to_neighborhood,downtown,-23.651964,-46.722515,122735130,2.847,-23.644944,-46.725554,122735133,0.826,True,,
+highway,,neighborhood_to_center,neighborhood,-23.644716,-46.727439,936529579-AddedOffRampEdge,2.538,-23.652411,-46.725454,249870999#9,0.008,True,,
+urban_road,,center_to_neighborhood,downtown,-23.555591,-46.662701,589550029#0,0.104,-23.547502,-46.647512,333172873,1.387,True,,
+urban_road,,neighborhood_to_center,neighborhood,-23.547366,-46.64759,454693652,2.242,-23.555485,-46.662814,405489974#2,1.546,True,,
+intersection,main_street,center_to_neighborhood,downtown,-23.58886,-46.728426,-934476455,2.691,-23.58507,-46.719822,911029849#8,0.257,True,,
+intersection,main_street,neighborhood_to_center,neighborhood,-23.584888,-46.719688,999273076,0.982,-23.588747,-46.728523,999273076,1.478,True,,
+intersection,cross_street,center_to_neighborhood,downtown,-23.583123,-46.724843,4769664#1,0.007,-23.588629,-46.723191,935873979,0.745,True,,
+intersection,cross_street,neighborhood_to_center,neighborhood,-23.588796,-46.722879,935873980,0.878,-23.583231,-46.724542,380166017#3,0.757,True,,

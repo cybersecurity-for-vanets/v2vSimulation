@@ -1,0 +1,77 @@
+{
+  "jobName": "sumoTrafficStats",
+  "distanceUnit": "KILOMETERS",
+  "network": {
+    "name": "SUMO_all",
+    "timeZoneId": "America/Sao_Paulo",
+    "frcs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -46.74005580352974,
+            -23.656902555874957
+          ],
+          [
+            -46.64181204019033,
+            -23.656902555874957
+          ],
+          [
+            -46.64181204019033,
+            -23.542590422089713
+          ],
+          [
+            -46.74005580352974,
+            -23.542590422089713
+          ],
+          [
+            -46.74005580352974,
+            -23.656902555874957
+          ]
+        ]
+      ]
+    },
+    "probeSource": "ALL"
+  },
+  "dateRange": {
+    "name": "2026-07-01 to 2026-07-31",
+    "from": "2026-07-01",
+    "to": "2026-07-31",
+    "excludedDaysOfWeek": [],
+    "exclusions": []
+  },
+  "timeSets": [
+    {
+      "name": "full_day",
+      "timeGroups": [
+        {
+          "days": [
+            "MON",
+            "TUE",
+            "WED",
+            "THU",
+            "FRI",
+            "SAT",
+            "SUN"
+          ],
+          "times": [
+            "00:00-23:59"
+          ]
+        }
+      ]
+    }
+  ],
+  "mapType": "GENESIS",
+  "acceptMode": "AUTO",
+  "averageSampleSizeThreshold": 0
+}

@@ -1,0 +1,46 @@
+{
+    "scenarios": {
+        "highway": {
+            "downtown": {
+                "start_coordinates": [-23.651964, -46.722515],
+                "end_coordinates": [-23.644944, -46.725554]
+            },
+            "neighborhood": {
+                "start_coordinates": [-23.644716, -46.727439],
+                "end_coordinates": [-23.652411, -46.725454]
+            }
+        },
+        "urban_road": {
+            "downtown": {
+                "start_coordinates": [-23.555591, -46.662701],
+                "end_coordinates": [-23.547502, -46.647512]
+            },
+            "neighborhood": {
+                "start_coordinates": [-23.547366, -46.647590],
+                "end_coordinates": [-23.555485, -46.662814]
+            }
+        },
+        "intersection": {
+            "main_street":{
+                "downtown": {
+                    "start_coordinates": [-23.588860, -46.728426],
+                    "end_coordinates": [-23.585070, -46.719822]
+                },
+                "neighborhood": {
+                    "start_coordinates": [-23.584888, -46.719688],
+                    "end_coordinates": [-23.588747, -46.728523]
+                }
+            },
+            "cross_street": {
+                "downtown": {
+                    "start_coordinates": [-23.583123, -46.724843],
+                    "end_coordinates": [-23.588629, -46.723191]
+                },
+                "neighborhood": {
+                    "start_coordinates": [-23.588796, -46.722879],
+                    "end_coordinates": [-23.583231, -46.724542]
+                }
+            }
+        }
+    }
+}

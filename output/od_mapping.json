@@ -1,0 +1,205 @@
+{
+    "metadata": {
+        "routes_file": "/Users/fabiotorres/projects/v2vSimulation/conf/routes.json",
+        "network_directory": "/Users/fabiotorres/projects/v2vSimulation/roadNetwork",
+        "search_radius_m": 100.0,
+        "max_distance_m": 100.0,
+        "num_routes": 8,
+        "num_success": 8,
+        "num_errors": 0
+    },
+    "routes": [
+        {
+            "scenario": "highway",
+            "corridor": null,
+            "direction_key": "downtown",
+            "direction": "center_to_neighborhood",
+            "origin": {
+                "latitude": -23.651964,
+                "longitude": -46.722515,
+                "x": 3794.033,
+                "y": 5195.034,
+                "edge_id": "122735130",
+                "distance_m": 2.847
+            },
+            "destination": {
+                "latitude": -23.644944,
+                "longitude": -46.725554,
+                "x": 3474.617,
+                "y": 5968.707,
+                "edge_id": "122735133",
+                "distance_m": 0.826
+            },
+            "route_exists": true,
+            "warnings": []
+        },
+        {
+            "scenario": "highway",
+            "corridor": null,
+            "direction_key": "neighborhood",
+            "direction": "neighborhood_to_center",
+            "origin": {
+                "latitude": -23.644716,
+                "longitude": -46.727439,
+                "x": 3282.005,
+                "y": 5991.632,
+                "edge_id": "936529579-AddedOffRampEdge",
+                "distance_m": 2.538
+            },
+            "destination": {
+                "latitude": -23.652411,
+                "longitude": -46.725454,
+                "x": 3494.811,
+                "y": 5141.911,
+                "edge_id": "249870999#9",
+                "distance_m": 0.008
+            },
+            "route_exists": true,
+            "warnings": []
+        },
+        {
+            "scenario": "urban_road",
+            "corridor": null,
+            "direction_key": "downtown",
+            "direction": "center_to_neighborhood",
+            "origin": {
+                "latitude": -23.555591,
+                "longitude": -46.662701,
+                "x": 4612.571,
+                "y": 4356.119,
+                "edge_id": "589550029#0",
+                "distance_m": 0.104
+            },
+            "destination": {
+                "latitude": -23.547502,
+                "longitude": -46.647512,
+                "x": 6152.868,
+                "y": 5269.791,
+                "edge_id": "333172873",
+                "distance_m": 1.387
+            },
+            "route_exists": true,
+            "warnings": []
+        },
+        {
+            "scenario": "urban_road",
+            "corridor": null,
+            "direction_key": "neighborhood",
+            "direction": "neighborhood_to_center",
+            "origin": {
+                "latitude": -23.547366,
+                "longitude": -46.64759,
+                "x": 6144.732,
+                "y": 5284.76,
+                "edge_id": "454693652",
+                "distance_m": 2.242
+            },
+            "destination": {
+                "latitude": -23.555485,
+                "longitude": -46.662814,
+                "x": 4600.899,
+                "y": 4367.724,
+                "edge_id": "405489974#2",
+                "distance_m": 1.546
+            },
+            "route_exists": true,
+            "warnings": []
+        },
+        {
+            "scenario": "intersection",
+            "corridor": "main_street",
+            "direction_key": "downtown",
+            "direction": "center_to_neighborhood",
+            "origin": {
+                "latitude": -23.58886,
+                "longitude": -46.728426,
+                "x": 1959.132,
+                "y": 1364.577,
+                "edge_id": "-934476455",
+                "distance_m": 2.691
+            },
+            "destination": {
+                "latitude": -23.58507,
+                "longitude": -46.719822,
+                "x": 2832.241,
+                "y": 1794.868,
+                "edge_id": "911029849#8",
+                "distance_m": 0.257
+            },
+            "route_exists": true,
+            "warnings": []
+        },
+        {
+            "scenario": "intersection",
+            "corridor": "main_street",
+            "direction_key": "neighborhood",
+            "direction": "neighborhood_to_center",
+            "origin": {
+                "latitude": -23.584888,
+                "longitude": -46.719688,
+                "x": 2845.676,
+                "y": 1815.187,
+                "edge_id": "999273076",
+                "distance_m": 0.982
+            },
+            "destination": {
+                "latitude": -23.588747,
+                "longitude": -46.728523,
+                "x": 1949.081,
+                "y": 1376.972,
+                "edge_id": "999273076",
+                "distance_m": 1.478
+            },
+            "route_exists": true,
+            "warnings": []
+        },
+        {
+            "scenario": "intersection",
+            "corridor": "cross_street",
+            "direction_key": "downtown",
+            "direction": "center_to_neighborhood",
+            "origin": {
+                "latitude": -23.583123,
+                "longitude": -46.724843,
+                "x": 2317.17,
+                "y": 2004.317,
+                "edge_id": "4769664#1",
+                "distance_m": 0.007
+            },
+            "destination": {
+                "latitude": -23.588629,
+                "longitude": -46.723191,
+                "x": 2493.125,
+                "y": 1396.601,
+                "edge_id": "935873979",
+                "distance_m": 0.745
+            },
+            "route_exists": true,
+            "warnings": []
+        },
+        {
+            "scenario": "intersection",
+            "corridor": "cross_street",
+            "direction_key": "neighborhood",
+            "direction": "neighborhood_to_center",
+            "origin": {
+                "latitude": -23.588796,
+                "longitude": -46.722879,
+                "x": 2525.192,
+                "y": 1378.49,
+                "edge_id": "935873980",
+                "distance_m": 0.878
+            },
+            "destination": {
+                "latitude": -23.583231,
+                "longitude": -46.724542,
+                "x": 2348.036,
+                "y": 1992.727,
+                "edge_id": "380166017#3",
+                "distance_m": 0.757
+            },
+            "route_exists": true,
+            "warnings": []
+        }
+    ]
+}

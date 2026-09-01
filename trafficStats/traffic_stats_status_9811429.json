@@ -1,0 +1,10 @@
+{
+  "jobId": "9811429",
+  "jobState": "DONE",
+  "urls": [
+    "https://fargoprod.blob.core.windows.net/fargo-prod/jobs%2F9811429%2Fresults%2FsumoTrafficStats.geojson?sv=2026-06-06&se=2028-09-02T04%3A12%3A35Z&sr=b&sp=r&sig=wjl13lJDoRBzLv3iAS%2BHRXcYuF6Xq03HokbzrVpYJPs%3D",
+    "https://fargoprod.blob.core.windows.net/fargo-prod/jobs%2F9811429%2Fresults%2FsumoTrafficStats.json?sv=2026-06-06&se=2028-09-02T04%3A12%3A35Z&sr=b&sp=r&sig=fhQyr2slg1zsenK5e08FQBLO%2Bwkxz8b7UGF8sWvDDAM%3D",
+    "https://fargoprod.blob.core.windows.net/fargo-prod/jobs%2F9811429%2Fresults%2FsumoTrafficStats.shapefile.zip?sv=2026-06-06&se=2028-09-02T04%3A12%3A35Z&sr=b&sp=r&sig=PWuI8phySh38%2Fohz%2B0DEgIZv%2B3jdkNv71iYKs5g%2B0x8%3D"
+  ],
+  "responseStatus": "OK"
+}

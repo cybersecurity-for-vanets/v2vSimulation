@@ -1,0 +1,19 @@
+[
+    {
+        "name": "full_day",
+        "timeGroups": [
+            {
+                "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                ],
+                "times": ["00:00-23:59"]
+            }
+        ]
+    }
+]

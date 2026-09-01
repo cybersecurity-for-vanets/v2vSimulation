@@ -1,0 +1,102 @@
+{
+  "job_id": "9811429",
+  "request": {
+    "jobName": "sumoTrafficStats",
+    "distanceUnit": "KILOMETERS",
+    "network": {
+      "name": "SUMO_all",
+      "timeZoneId": "America/Sao_Paulo",
+      "frcs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -46.74005580352974,
+              -23.656902555874957
+            ],
+            [
+              -46.64181204019033,
+              -23.656902555874957
+            ],
+            [
+              -46.64181204019033,
+              -23.542590422089713
+            ],
+            [
+              -46.74005580352974,
+              -23.542590422089713
+            ],
+            [
+              -46.74005580352974,
+              -23.656902555874957
+            ]
+          ]
+        ]
+      },
+      "probeSource": "ALL"
+    },
+    "dateRange": {
+      "name": "2026-07-01 to 2026-07-31",
+      "from": "2026-07-01",
+      "to": "2026-07-31",
+      "excludedDaysOfWeek": [],
+      "exclusions": []
+    },
+    "timeSets": [
+      {
+        "name": "full_day",
+        "timeGroups": [
+          {
+            "days": [
+              "MON",
+              "TUE",
+              "WED",
+              "THU",
+              "FRI",
+              "SAT",
+              "SUN"
+            ],
+            "times": [
+              "00:00-23:59"
+            ]
+          }
+        ]
+      }
+    ],
+    "mapType": "GENESIS",
+    "acceptMode": "AUTO",
+    "averageSampleSizeThreshold": 0
+  },
+  "create_response": {
+    "jobId": "9811429",
+    "responseStatus": "OK",
+    "messages": [
+      "Job created. Processing started."
+    ]
+  },
+  "final_status": {
+    "jobId": "9811429",
+    "jobState": "DONE",
+    "urls": [
+      "https://fargoprod.blob.core.windows.net/fargo-prod/jobs%2F9811429%2Fresults%2FsumoTrafficStats.geojson?sv=2026-06-06&se=2028-09-02T04%3A12%3A35Z&sr=b&sp=r&sig=wjl13lJDoRBzLv3iAS%2BHRXcYuF6Xq03HokbzrVpYJPs%3D",
+      "https://fargoprod.blob.core.windows.net/fargo-prod/jobs%2F9811429%2Fresults%2FsumoTrafficStats.json?sv=2026-06-06&se=2028-09-02T04%3A12%3A35Z&sr=b&sp=r&sig=fhQyr2slg1zsenK5e08FQBLO%2Bwkxz8b7UGF8sWvDDAM%3D",
+      "https://fargoprod.blob.core.windows.net/fargo-prod/jobs%2F9811429%2Fresults%2FsumoTrafficStats.shapefile.zip?sv=2026-06-06&se=2028-09-02T04%3A12%3A35Z&sr=b&sp=r&sig=PWuI8phySh38%2Fohz%2B0DEgIZv%2B3jdkNv71iYKs5g%2B0x8%3D"
+    ],
+    "responseStatus": "OK"
+  },
+  "downloaded_files": [
+    "/Users/fabiotorres/Documents/USP/simulations/pipeline/trafficStats/traffic_stats_area_full_9811429_0.geojson.gz",
+    "/Users/fabiotorres/Documents/USP/simulations/pipeline/trafficStats/traffic_stats_area_full_9811429_1.geojson.gz",
+    "/Users/fabiotorres/Documents/USP/simulations/pipeline/trafficStats/traffic_stats_area_full_9811429_2.zip"
+  ]
+}
